@@ -1,0 +1,12 @@
+{
+  "id": "share-test-opener",
+  "name": "Prueba tarjetas (abre)",
+  "version": "1.0.0",
+  "apiVersion": 20,
+  "entry": "plugin.js",
+  "description": "Plugin de prueba: botones con go.plugin y una miniatura de kino.image.thumbnail. Solo para comprobar las tarjetas en un aparato.",
+  "author": "kinotvapp",
+  "hosts": ["image.tmdb.org"],
+  "capabilities": ["screen"],
+  "screen": { "label": "Abre tarjetas", "labelEn": "Card opener", "icon": "tune", "menuOpens": "screen" }
+}

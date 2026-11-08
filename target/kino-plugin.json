@@ -1,0 +1,13 @@
+{
+  "id": "share-test-target",
+  "name": "Prueba tarjetas (destino)",
+  "version": "1.0.0",
+  "apiVersion": 20,
+  "entry": "plugin.js",
+  "description": "Plugin de prueba: destino de go.plugin. Solo para comprobar las tarjetas en un aparato.",
+  "author": "kinotvapp",
+  "hosts": ["archive.org"],
+  "capabilities": ["screen", "search", "resolve"],
+  "screen": { "label": "Destino", "labelEn": "Target", "icon": "tune", "menuOpens": "screen" },
+  "openFrom": { "routes": ["item"] }
+}
